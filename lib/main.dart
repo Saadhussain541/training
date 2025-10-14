@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:training_class/class6/example1.dart';
 import 'package:training_class/class6/splashScreen.dart';
 import 'package:training_class/class7/class7.dart';
+import 'package:training_class/class9/responsive_screen.dart';
 import 'package:training_class/login.dart';
 import 'package:training_class/login_screen.dart';
 
@@ -33,7 +34,7 @@ class NaziaApp extends StatelessWidget {
       // },
       // initialRoute: '/splash',
 
-      home: SolutionClass(),
+      home: ResponsiveScreen(),
       // initial Screen
     );
   }
