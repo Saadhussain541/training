@@ -5,6 +5,8 @@ import 'package:training_class/class7/class7.dart';
 import 'package:training_class/class9/responsive_screen.dart';
 import 'package:training_class/login.dart';
 import 'package:training_class/login_screen.dart';
+import 'package:training_class/revisions/revision_login_screen.dart';
+import 'package:training_class/revisions/revision_screen.dart';
 
 import 'auth_screen.dart';
 import 'class10/bottom_main_screen.dart';
@@ -35,7 +37,7 @@ class NaziaApp extends StatelessWidget {
       // },
       // initialRoute: '/splash',
 
-      home: BottomMainScreen(),
+      home: RevisionLoginScreen(),
       // initial Screen
     );
   }
