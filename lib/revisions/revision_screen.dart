@@ -16,7 +16,6 @@ class _RevisionSplashScreenState extends State<RevisionSplashScreen> {
   @override
   void initState() {
     // TODO: implement initState
-
     Timer.periodic(Duration(seconds: 5),(val)=>Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>RevisionOnboardScreen()))) ;
     super.initState();
   }
