@@ -12,6 +12,7 @@ import 'auth_screen.dart';
 import 'class10/bottom_main_screen.dart';
 import 'class11/grid_screen.dart';
 import 'class11/stack_screen.dart';
+import 'class12/onboard_screen.dart';
 import 'class5/home_redirect.dart';
 import 'class6/example2.dart';
 import 'class6/example3.dart';
@@ -39,7 +40,7 @@ class NaziaApp extends StatelessWidget {
       // },
       // initialRoute: '/splash',
 
-      home: StackScreen(),
+      home: OnboardScreen(),
       // initial Screen
     );
   }
