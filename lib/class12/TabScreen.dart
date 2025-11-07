@@ -10,6 +10,9 @@
 
 
 
+
+
+
 import 'package:flutter/material.dart';
 class Tabscreen extends StatefulWidget {
   const Tabscreen({super.key});
@@ -44,18 +47,22 @@ class _TabscreenState extends State<Tabscreen> with SingleTickerProviderStateMix
                     Tab(icon: Icon(Icons.home),),
                     Tab(icon: Icon(Icons.image),),
                     Tab(icon: Icon(Icons.person),),
+                        Tab(icon: Icon(Icons.settings),),
                   ],controller: tabController,),
 
 
                   //Tab Body
 
-                  TabBarView(
-                      controller: tabController,
-                      children: [
-                    Center(child: Text('Home Screen'),),
-                    Center(child: Text('Gallery Screen'),),
-                    Center(child: Text('Profile Screen'),),
-                  ])
+                  Expanded(
+                    child: TabBarView(
+                        controller: tabController,
+                        children: [
+                      Center(child: Text('Home Screen'),),
+                      Center(child: Text('Gallery Screen'),),
+                      Center(child: Text('Profile Screen'),),
+                          Center(child: Text('Setting Screen'),),
+                    ]),
+                  )
 
                 ],
               )),

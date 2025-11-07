@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:training_class/class13/passData.dart';
 import 'package:training_class/class6/example1.dart';
 import 'package:training_class/class6/splashScreen.dart';
 import 'package:training_class/class7/class7.dart';
@@ -13,6 +14,7 @@ import 'class10/bottom_main_screen.dart';
 import 'class11/grid_screen.dart';
 import 'class11/stack_screen.dart';
 import 'class12/onboard_screen.dart';
+import 'class13/modern_home_screen.dart';
 import 'class5/home_redirect.dart';
 import 'class6/example2.dart';
 import 'class6/example3.dart';
@@ -40,7 +42,7 @@ class NaziaApp extends StatelessWidget {
       // },
       // initialRoute: '/splash',
 
-      home: OnboardScreen(),
+      home: ModernHomeScreen(),
       // initial Screen
     );
   }
