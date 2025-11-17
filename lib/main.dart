@@ -5,11 +5,14 @@ import 'package:training_class/class6/example1.dart';
 import 'package:training_class/class6/splashScreen.dart';
 import 'package:training_class/class7/class7.dart';
 import 'package:training_class/class9/responsive_screen.dart';
+import 'package:training_class/dio1/first_dio.dart';
 import 'package:training_class/login.dart';
 import 'package:training_class/login_screen.dart';
 import 'package:training_class/revisions/revision_login_screen.dart';
 import 'package:training_class/revisions/revision_screen.dart';
 
+import 'api/api_screen.dart';
+import 'api/movieScreen.dart';
 import 'auth_screen.dart';
 import 'class10/bottom_main_screen.dart';
 import 'class11/grid_screen.dart';
@@ -17,12 +20,15 @@ import 'class11/stack_screen.dart';
 import 'class12/onboard_screen.dart';
 import 'class13/modern_home_screen.dart';
 import 'class14/education_screen.dart';
+import 'class15/DataScreen.dart';
+import 'class15/FutureScreen.dart';
 import 'class5/home_redirect.dart';
 import 'class6/example2.dart';
 import 'class6/example3.dart';
 import 'class7/listViewScreen.dart';
 import 'class8/class8.dart';
 import 'home.dart';
+
 
 void main()
 {
@@ -44,7 +50,7 @@ class NaziaApp extends StatelessWidget {
       // },
       // initialRoute: '/splash',
 
-      home: EducationScreen(),
+      home: DataScreen(),
       // initial Screen
     );
   }
