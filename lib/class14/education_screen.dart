@@ -14,7 +14,14 @@ class _EducationScreenState extends State<EducationScreen> {
     final screenWidth=MediaQuery.of(context).size.width;
     final screenHeigth=MediaQuery.of(context).size.height;
     return Scaffold(
-      endDrawer: Drawer(),
+      endDrawer: Drawer(
+        child: ListView(
+          children: [
+            ListTile(leading: Icon(Icons.home),title: Text('Home'),),
+            ListTile(leading: Icon(Icons.question_answer),title: Text('FAQ'),),
+          ],
+        ),
+      ),
       appBar: AppBar(
         centerTitle: false,
         title: Column(

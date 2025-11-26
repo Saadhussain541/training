@@ -22,6 +22,7 @@ import 'class13/modern_home_screen.dart';
 import 'class14/education_screen.dart';
 import 'class15/DataScreen.dart';
 import 'class15/FutureScreen.dart';
+import 'class16/class16.dart';
 import 'class5/home_redirect.dart';
 import 'class6/example2.dart';
 import 'class6/example3.dart';
@@ -50,7 +51,7 @@ class NaziaApp extends StatelessWidget {
       // },
       // initialRoute: '/splash',
 
-      home: DataScreen(),
+      home: ClassMovie(),
       // initial Screen
     );
   }
